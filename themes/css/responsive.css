@@ -1,0 +1,74 @@
+/*Variables*/
+@media (min-width: 2200px) {
+    section.home-main-banner .content .macbook {
+        background-position: 50% 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    section.home-main-banner .content .phone {
+        width: 458px;
+        height: 412px;
+        background: url(../assets/phone.png) top no-repeat;
+        background-size: 100% auto;
+    }
+
+    section.home-main-banner .content .text {
+        padding-top: 40px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .slicknav_menu {
+        display: block;
+        background: #7f96fb !important;
+    }
+
+    .slicknav_menu a:hover {
+        background: #000 !important;
+        color: #fff !important;
+    }
+
+    .slicknav_collapsed {
+        background: #7f96fb !important;
+    }
+
+    header {
+        display: none;
+    }
+
+    header.project {
+        display: block;
+    }
+
+    section.home-main-banner {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 990px) {
+    section.services {
+        background: none;
+    }
+
+    section.services:after {
+        display: none;
+    }
+
+    section.vlog .head:after {
+        display: none;
+    }
+
+    footer .menus {
+        padding-left: 0px;
+    }
+
+    footer .menus .contact-info .phone {
+        font-size: 22px;
+    }
+
+    footer .contact h2 {
+        font-size: 32px;
+    }
+}
